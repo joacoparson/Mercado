@@ -5,6 +5,8 @@ public class DeElectronica extends Producto {
         super.setPrecio(precio);
     }
 
+    public DeElectronica() {}
+
     @Override
     public double blackFriday() {
         return (super.getPrecio() * 0.6); //Descuento de %40

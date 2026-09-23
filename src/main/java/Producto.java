@@ -1,4 +1,6 @@
-public abstract class Producto implements Comparable<Producto> {
+import java.io.Serializable;
+
+public abstract class Producto implements Comparable<Producto>, Serializable {
 
     private String nombre;
     private double precio;

@@ -5,6 +5,8 @@ public class DeLineaBlanca extends Producto {
         super.setPrecio(precio);
     }
 
+    public DeLineaBlanca() {}
+
     @Override
     public double blackFriday() {
         return (super.getPrecio() * 0.65); //Descuento de %35
