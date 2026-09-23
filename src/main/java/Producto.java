@@ -23,7 +23,7 @@ public abstract class Producto implements Comparable<Producto>, Serializable {
 
     @Override
     public int compareTo(Producto producto) {
-        return Double.compare(this.getPrecio(), producto.getPrecio());
+        return Double.compare(this.blackFriday(), producto.blackFriday());
     }
 
 }
